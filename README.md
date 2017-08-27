@@ -33,9 +33,9 @@ docker-compose up
 Your service `example.com` needs to be accessible from the internet.
 Alternatively you can use ngrok.io. Their free service is sufficient to test this example.
 
-* Register with ngrok.io and download `ngrok` app
-* Run locally `ngrok http 80` and note `yoursubdomain.grok.io`, for example `cebfc0a7.ngrok.io`
-* Replace `example.com` inside docker-compose.yml with `yoursubdomain.ngrok.io` and `youremail@example.com` with your e-mail address
+* Register with https://ngrok.io and download `ngrok` app
+* Run locally `ngrok http 80` and note `yoursubdomain.grok.io`
+* Replace `example.com` inside `docker-compose.yml` with `yoursubdomain.ngrok.io` and `youremail@example.com` with your e-mail address
 * Add to your `/etc/hosts` the mapping to the ngrok domain: `127.0.0.1 yoursubdomain.ngrok.io`. You need this step, otherwise your call to this domain will be routed through ngrok.io.
 * Run `docker-compose up`
 
