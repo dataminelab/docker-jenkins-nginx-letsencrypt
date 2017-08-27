@@ -12,7 +12,7 @@ Docker and docker-compose:
 
 Your domain `example.com` needs to be publicly resolvable and accessible from the internet.
 
-Modify the domains inside the `docker-compose.yml`:
+Modify the domain and e-mail address inside the `docker-compose.yml`:
 
 ```
 # Used by `nginx-proxy` to automatically proxy the traffic to the `nginx` docker
@@ -28,6 +28,8 @@ Bring up the services:
 docker-compose up
 ```
 
+Access your jenkins on: https://example.com
+Note that on the first run it could take few minutes to initialise the Let's Encrypt.
 
 # Local testing
 
