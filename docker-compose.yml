@@ -11,15 +11,12 @@ services:
 
   nginx:
     image: nginx
-    ports:
-      - "8088:80"
     links:
       - jenkins
     volumes:
       - "./etc/nginx/conf.d/:/etc/nginx/conf.d/"
     environment:
       VIRTUAL_HOST: example.com
-      VIRTUAL_PORT: 8088
       LETSENCRYPT_HOST: example.com
       LETSENCRYPT_EMAIL: youremail@example.com
 

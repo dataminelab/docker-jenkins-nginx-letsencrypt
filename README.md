@@ -17,7 +17,6 @@ Modify the domains inside the `docker-compose.yml`:
 ```
 # Used by `nginx-proxy` to automatically proxy the traffic to the `nginx` docker
 VIRTUAL_HOST: example.com
-VIRTUAL_PORT: 8088
 # Used by `letsencrypt-nginx-proxy-companion` to generate SSL certificates
 LETSENCRYPT_HOST: example.com
 LETSENCRYPT_EMAIL: youremail@example.com
