@@ -1,6 +1,6 @@
 # docker-jenkins-nginx-letsencrypt
 
-Dockerised Jenkins with SSL support using nginx and letsencrypt
+Dockerised Jenkins with SSL support using Nginx and Let's Encrypt
 
 # Requirements
 
