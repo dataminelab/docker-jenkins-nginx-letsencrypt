@@ -30,7 +30,7 @@ docker-compose up
 
 # Local testing
 
-Your service `example.com` needs to be accessible from the internet on a given DNS.
+Your service `example.com` needs to be accessible from the internet.
 Alternatively you can use ngrok.io. Their free service is sufficient to test this example.
 
 * Register with ngrok.io and download `ngrok` app
