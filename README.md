@@ -10,6 +10,8 @@ Docker and docker-compose:
 
 # Usage
 
+Your domain `example.com` needs to be publicly resolvable and accessible from the internet.
+
 Modify the domains inside the `docker-compose.yml`:
 
 ```
@@ -30,7 +32,8 @@ docker-compose up
 
 # Local testing
 
-Your service `example.com` needs to be accessible from the internet.
+For development purposes, you could run `boulder`, the CA server behind Let's Encrypt: https://letsencrypt.readthedocs.io/en/latest/contributing.html#integration-testing-with-the-boulder-ca
+
 Alternatively you can use ngrok.io. Their free service is sufficient to test this example.
 
 * Register with https://ngrok.io and download `ngrok` app
