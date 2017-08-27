@@ -41,7 +41,7 @@ Alternatively you can use ngrok.io. Their free service is sufficient to test thi
 
 What happens after running this example is the following:
 * Let's encrypt will generate new certificate
-* It will call `yoursubdomain.ngrok.io/.well-known/acme-challenge` which will be redirected to our localhost, curtosy of ngrok.io You can confirm this behaviour when checking: http://localhost:4040/inspect/http
+* It will call `yoursubdomain.ngrok.io/.well-known/acme-challenge` which will be redirected to our localhost, courtesy of ngrok.io You can confirm this behaviour when checking: http://localhost:4040/inspect/http
 * Navigate to `https://yoursubdomain.ngrok.io` and setup your Jenkins. 
 
 
