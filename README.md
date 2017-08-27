@@ -44,4 +44,8 @@ What happens after running this example is the following:
 * It will call `yoursubdomain.ngrok.io/.well-known/acme-challenge` which will be redirected to our localhost, courtesy of ngrok.io You can confirm this behaviour when checking: http://localhost:4040/inspect/http
 * Navigate to `https://yoursubdomain.ngrok.io` and setup your Jenkins. 
 
-
+References:
+* https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion
+* https://github.com/jwilder/nginx-proxy
+* https://hub.docker.com/_/nginx/
+* https://hub.docker.com/r/jenkins/jenkins/

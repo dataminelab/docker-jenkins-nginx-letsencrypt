@@ -3,7 +3,7 @@ version: '2'
 services:
 
   jenkins:
-    image: jenkins:2.60.1
+    image: jenkins/jenkins:lts
     volumes:
       - './jenkins_home:/var/jenkins_home'
     ports:
